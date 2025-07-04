@@ -1,0 +1,14 @@
+Delivered-To: victim@example.com
+Received: from suspicious-mailer.net ([185.45.67.89])
+        by mail.example.com with ESMTP id abc123
+        for <victim@example.com>; Tue, 02 Jul 2024 10:21:53 +0000
+Received-SPF: fail (example.com: domain of amaz0n-pay.com does not designate 185.45.67.89 as permitted sender) client-ip=185.45.67.89;
+Authentication-Results: mail.example.com;
+    spf=fail (example.com: domain of amaz0n-pay.com does not designate 185.45.67.89 as permitted sender) smtp.mailfrom=amaz0n-pay.com;
+From: "Amazon Billing" <support@amaz0n-pay.com>
+Reply-To: refund@scammer-mail.ru
+Subject: Urgent: Your account is blocked
+To: victim@example.com
+Date: Tue, 02 Jul 2024 10:19:42 +0000
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
